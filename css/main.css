@@ -3,7 +3,7 @@
 body {
   font-family: "PT Sans", Helvetica, sans sans-serif;
   color: #535657;
-  background-color: #fcfcfc;
+  background-color: #4F646F;
   padding: 0;
   margin: 0;
 }
@@ -50,6 +50,11 @@ nav {
   list-style: none;
   font-weight: bold;
   font-size: 0.8em;
+}
+
+ul {
+  margin: 0;
+  padding-top: 0.5em;
 }
 
 nav ul li, footer ul li {
