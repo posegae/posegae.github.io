@@ -19,8 +19,8 @@ a {
 a:hover {
     text-decoration: underline;
 }
-#home {
-    color:#333;
+a#home {
+    color: #333;
 }
 h1 {
     font-size: 3em;
