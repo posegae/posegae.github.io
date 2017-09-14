@@ -1,4 +1,6 @@
-@import url('https://fonts.googleapis.com/css?family=PT+Sans|Libre+Baskerville');
+@import url('https://fonts.googleapis.com/css?family=PT+Sans|Roboto|Montserrat|Libre+Baskerville|Nixie+One');
+
+/*https://coolors.co/fcfcfc-dee7e7-bdd7ad-4f646f-535657*/
 
 body {
   font-family: "PT Sans", Helvetica, sans sans-serif;
@@ -10,7 +12,7 @@ body {
 
 h1, h2 {
   /*font-family: "PT Sans", Helvetica, sans sans-serif;*/
-  font-family: "Libre Baskerville", Times, serif;
+  font-family: "Libre Baskerville", Helvetica, sans-serif;
   margin: 0;
   font-weight: 100;
   font-size: 1.75em;
@@ -19,12 +21,13 @@ h1, h2 {
 
 h3 {
   /*font-family: "Roboto", Courier, monospace;*/
-  font-family: "Libre Baskerville", Times, serif;
+  font-family: "Libre Baskerville", Helvetica, sans-serif;
   font-weight: 100;
   font-size: 1.5em;
 }
 
 p {
+  /*font-family: "Libre Baskerville", Helvetica, sans-serif;*/
   font-size: 0.85em;
 }
 
@@ -75,6 +78,8 @@ div.section {
   padding-right: 8em;
   padding-bottom: 1em;
   margin: 0 auto;
+  position: relative;
+
 }
 
 div#about {
@@ -90,6 +95,23 @@ div#projects {
 p.section_main_text {
   padding-left: 2em;
 }
+
+div#about:after {
+    content:'';
+    position: absolute;
+    top: 100%;
+    left: 50%;
+    margin-left: -50px;
+    width: 0;
+    height: 0;
+    border-top: solid 50px #DEE7E7;
+    border-left: solid 50px transparent;
+    border-right: solid 50px transparent;
+    z-index: 1;
+}
+
+
+
 
 /* body {
     margin: 60px auto;
