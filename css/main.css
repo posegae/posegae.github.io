@@ -19,7 +19,7 @@ a {
 a:hover {
     text-decoration: underline;
 }
-a#home {
+a.home {
     color: #333;
 }
 h1 {
