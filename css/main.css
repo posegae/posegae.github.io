@@ -99,7 +99,7 @@ p.section_main_text {
 div#about:after {
     content:'';
     position: absolute;
-    top: 100%;
+    top: 95%;
     left: 50%;
     margin-left: -50px;
     width: 0;
